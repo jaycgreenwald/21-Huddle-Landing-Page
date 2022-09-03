@@ -1,0 +1,12 @@
+@use 'index' as i;
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: i.$ff-default;
+    font-size: i.$fs-default;
+    font-weight: i.$fw-open-sans-400;
+    min-height: 100vh;
+    justify-content: center;
+}

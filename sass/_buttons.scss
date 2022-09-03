@@ -1,0 +1,36 @@
+@use 'index' as i;
+
+// links that are styled like buttons
+
+// moblile sizes
+.btn-link {
+    box-shadow: 0 0 4px 0 hsl(0, 0%, 70%);
+    background-color: i.$clr-white;
+    border-radius: 55px; 
+    color: i.$clr-cyan-900;
+    display: inline-block;
+    font-weight: i.$fw-open-sans-700;
+    font-size: i.pxToRem(10);
+    padding: 5px 23px 6px 23px;
+    text-align: center;
+    text-decoration: none;
+    // width: 12.5rem;
+    // transition: all 200ms; <---- update this
+}
+
+.btn-link:hover {
+    color: i.$clr-gray-blue-400;
+}
+
+.btn-link--pink {
+    background-color: i.$clr-pink-400;
+    color: i.$clr-white;
+    font-size: i.pxToRem(12);
+    padding: 10px 60px 11px 60px;
+}
+
+.btn-link--pink-sml {
+    background-color: i.$clr-pink-400;
+    color: i.$clr-white;
+    font-size: i.pxToRem(10);
+}

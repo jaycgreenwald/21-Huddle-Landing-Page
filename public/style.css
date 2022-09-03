@@ -1,0 +1,182 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.btn-link {
+  box-shadow: 0 0 4px 0 hsl(0deg, 0%, 70%);
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 55px;
+  color: hsl(192deg, 100%, 9%);
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.63rem;
+  padding: 5px 23px 6px 23px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn-link:hover {
+  color: hsl(208deg, 11%, 55%);
+}
+
+.btn-link--pink {
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 0.75rem;
+  padding: 10px 60px 11px 60px;
+}
+
+.btn-link--pink-sml {
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 0.63rem;
+}
+
+.page-wrapper {
+  max-width: 23.44rem;
+}
+
+.hero {
+  background-image: url(../images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(193deg, 100%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__top-line {
+  align-items: center;
+  display: flex;
+  padding: 23px 16px 82px 15px;
+}
+
+.logo {
+  width: 104px;
+  height: auto;
+}
+
+.hero__title {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  padding: 0 35px 22px 35px;
+  text-align: center;
+}
+
+.hero__text {
+  color: hsl(192deg, 100%, 9%);
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 0 35px 33px 35px;
+  text-align: center;
+}
+
+.hero__image {
+  padding: 54px 36px 40px 36px;
+}
+
+.features {
+  padding: 50px 20px 0 20px;
+}
+
+.features__card {
+  box-shadow: 0 0 4px 0 hsl(0deg, 0%, 70%);
+  border-radius: 10px;
+  margin: 0 0 2.38rem 0;
+  padding: 3.44rem 2.38rem 2.38rem 2.38rem;
+}
+
+.features__title {
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  padding: 30px 0 14px 0;
+  text-align: center;
+}
+
+.features__text {
+  color: hsl(208deg, 11%, 55%);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.features__offer {
+  color: hsl(192deg, 100%, 9%);
+  font-size: 1.19rem;
+  letter-spacing: -0.5px;
+  text-align: center;
+}
+
+.footer {
+  background-color: hsl(192deg, 100%, 9%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.contact {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.links__list {
+  line-height: 2.4;
+  list-style: none;
+  padding: 0;
+}
+
+.copyright {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.69rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
